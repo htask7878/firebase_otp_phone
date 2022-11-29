@@ -43,6 +43,7 @@ class _HomeState extends State<Home> {
               phoneNumber: '+91${numberController.text}',
               verificationCompleted: (PhoneAuthCredential credential) async {
 
+
                 await auth.signInWithCredential(credential);
               },
               verificationFailed: (FirebaseAuthException e) {
