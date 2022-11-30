@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.firebase_otp_phone">
    <application
-        android:userCleartextTraffic="true"
+        android:usesCleartextTraffic="true"
         android:label="firebase_otp_phone"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">

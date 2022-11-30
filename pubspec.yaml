@@ -38,7 +38,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core:
   firebase_auth:
-  otp_text_field:
+  flutter_otp_text_field:
 
 dev_dependencies:
   flutter_test:
